@@ -10,4 +10,7 @@ public class Pilot extends PlaneStaff{
     public String getPilotLicenceNumber() {
         return pilotLicenceNumber;
     }
+    public String flyPlane(){
+        return "Wooosh... Wait a minute, this isn't a car.";
+    }
 }
