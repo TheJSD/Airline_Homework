@@ -1,4 +1,4 @@
-package people;
+package people.staff;
 import com.codeclan.people.crew.CabinCrewMember;
 import com.codeclan.people.crew.Rank;
 import org.junit.Before;
