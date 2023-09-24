@@ -1,7 +1,7 @@
 package people;
 
 import com.codeclan.people.Passenger;
-import com.codeclan.people.Person;import org.junit.Before;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
