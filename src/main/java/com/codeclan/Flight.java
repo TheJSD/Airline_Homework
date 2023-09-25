@@ -40,8 +40,9 @@ public class Flight {
         return cabinCrewMembers.size();
     }
     public void addPassenger(Passenger passenger){
-        if (this.plane.getCapacity() > this.getNumberOfPassengers())
-        this.passengers.add(passenger);
+        if (this.plane.getCapacity() > this.getNumberOfPassengers()) {
+            this.passengers.add(passenger);
+        }
     }
     public int getNumberOfPassengers(){
         return passengers.size();
